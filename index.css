@@ -26,12 +26,14 @@ body{
 .maincontainer{
     width:100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .maincontainerbox{
     width:100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -42,6 +44,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
     
 }
 .welcomebox{
@@ -126,4 +129,285 @@ body{
   color: white;
   font-size: 0.72rem;
   font-weight: bold;
+}
+
+.admin{
+  width:100%;
+   display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminbox{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+ .adminleft{
+  width:25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(33, 33, 43);
+ }
+ .adminlefttop h2{
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid rgb(92, 90, 90);
+  margin-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.adminleftbox{
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+gap:25px;
+margin-top: 40px;
+
+}
+
+.adminleftbox  a{
+text-decoration: none;
+color: white;
+font-size: 0.88rem;
+padding-left: 20px;
+}
+.adminright{
+  width:83%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+ 
+}
+.adminrightbox{
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center;
+
+
+}
+.navbar{
+  width:95%;
+  height:70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+background-color: rgb(239, 240, 242);
+    padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.navbarbox{
+    width:100%;
+    height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   align-items: center; 
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.navleft{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+.navleft h1{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  font-size: 0.77rem;
+}
+
+.navleft p{
+  font-size: 0.8rem;
+  color: rgb(66, 65, 65);
+}
+#devsel{
+  width: 110px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    border: 1px solid rgb(184, 182, 182);
+}
+.moon{
+  width:30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.role{
+   width: 50px;
+  height: 25px;
+  background-color: rgba(12, 144, 221, 0.119);
+  color: rgb(16, 139, 196);
+  border-radius: 5px;
+  font-size: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout{
+  width:160px;
+  height:30px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+.name{
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+#log{
+  width:50px;
+  height:20px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 0.6rem;
+  padding: 8px;
+  font-weight: bold;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.activebox{
+  width:100%;
+  height:140px;
+  background-color: aliceblue;
+  
+  padding: 20px;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  border-left: 3px solid rgb(43, 100, 191);
+
+}
+#dashh{
+  padding-left: 5px;
+}
+.mid{
+  width:95%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.midbox{
+  width:100%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+     background-color: rgb(239, 240, 242);
+      margin-top: 30px;
+      padding: 20px;
+
+}
+.middivs{
+  width:100%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+   
+  
+}
+.activetop{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.nameadmain{
+   width:100%;
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.namestop{
+  display: flex;
+flex-direction: column;
+gap:10px;
+}
+.namedleft{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+.logged{
+  width:100%;
+  height:55px;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(90, 89, 89);
+  padding: 10px;
+ 
+  
+}
+.names{
+  font-weight: bold;
+}
+.admins{
+ width: 50px;
+  height: 25px;
+  background-color: rgba(12, 144, 221, 0.119);
+  color: rgb(16, 139, 196);
+  border-radius: 5px;
+  font-size: 0.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logdiv span{
+  font-weight: bold;
+  color: rgb(53, 52, 52);
+}
+.date{
+  font-size: 0.65rem;
+  font-weight: lighter;
+  color: rgb(67, 66, 66);
+  
 }
